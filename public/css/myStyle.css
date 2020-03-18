@@ -1,0 +1,281 @@
+
+.test {
+    background-color: purple;
+    color: white;
+    font-size: 29px;
+    display: block;
+    border: 1px solid green;
+}
+
+.test1 {
+    background-color: black;
+    color: white;
+    font-size: 29px;
+    display: inline-block;
+}
+
+                            /* Main */
+body a, h6{
+    color: #443857;
+}
+
+                            /* Header */
+                        /* Top Navigation */
+#navbarTopContent ul li a:hover {
+    text-decoration: underline;
+}
+
+/* #navbarTopContent ul li a {
+    color: white;
+}
+#navbarTopContent ul li {
+    color: white;
+} */
+
+
+
+/* Nav */
+#MainNavbar {
+    font-weight: bold;
+}
+
+#MainNavbar ul li a:hover {
+    color: #41c0f0;
+}
+
+#MainNavbar ul li a {
+
+        color: #443867;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 13px;
+}
+
+.activeLink1 {
+    color: #41c0f0 !important;
+}
+
+.inactive1 a {
+    color: gray !important;
+}
+
+
+
+
+                            /* Footer */
+.footer {
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0px;
+    list
+}
+
+.footer-group-name {
+    margin-bottom: 12px;
+    color: #4f4f4f;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer ul li a {
+    color: #4f4f4f;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+                                 /* Icons */
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.mi-sidebarx {
+    font-size: 0.5em;
+    color: #41c0f0;
+    color: black;
+}
+/*
+#navbarTopContent ul li i {
+    vertical-align:middle;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                /* Sidebar */
+.sidebar-h1{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Verdana;
+    color: #443857;
+}
+
+.sidebar-h2{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #443857;
+}
+
+.sidebar-h3{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #443857;
+}
+
+.sidebar-meniu {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #443857;
+}
+
+/* .sidebar-inactive a{
+    font-weight: normal;
+}
+
+.sidebar-active a{
+    color: #41c0f0;
+    background-color: light-blue;
+    font-weight: 800;
+} */
+
+.sidebar-inactive span:hover {
+    color: #41c0f0;
+    cursor: pointer;
+}
+
+.sidebar-inactive span{
+    font-weight: normal;
+}
+
+.sidebar-active span{
+    color: #41c0f0;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+                        /* Individuali Kelione */
+.kelione {
+    color: #443857;
+}
+
+.kelione img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+
+
+
+                                /* Misc */
+.mainpage-img img {
+    object-fit: cover;
+}
+.kelioniu-img img{
+    object-fit: cover;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #41c0f0;
+}
+
+.sidebar-icons i{
+    color: #41c0f0; /* light blue */
+    vertical-align:middle;
+    display: inline;
+    padding: 5px;
+
+}
+
+.youtubevideo1 {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.youtubevideo1 iframe {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+}
+
+
+                         /* Media Queries */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .mainpage-img img{
+        height: 175px;
+    }
+    .kelioniu-img img{
+        height: 201px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .mainpage-img img{
+        height: 200px;
+    }
+    .kelioniu-img img{
+        height: 285px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mainpage-img img {
+        height: 250px;
+    }
+    .kelioniu-img img{
+        height: 325px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .mainpage-img img{
+        height: 275px;
+    }
+    .kelioniu-img img{
+        height: 365px;
+    }
+}
+
+
+                            /* Google maps API */
+#map{
+    height: 400px;
+    width: 100%;
+}
